@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3d5a051-0415-4efd-ae7b-4b06e291ebfa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iq87nP5ugg5zO2MGj0zVuvasz3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="TestNG.Requests_Suite.Requests_Post_CrearUsuario_1">
+    <configuration name="Requests_Suite.Requests_GET_ObtenerInfoUsuario" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="Requests.Requests_Suite" />
+      <option name="METHOD_NAME" value="Requests_GET_ObtenerInfoUsuario" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Requests_Suite.Requests_GET_ObtenerListaUsuarios_1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="Requests.Requests_Suite" />
+      <option name="METHOD_NAME" value="Requests_GET_ObtenerListaUsuarios_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Requests_Suite.Requests_GET_ObtenerListaUsuarios_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="Requests.Requests_Suite" />
+      <option name="METHOD_NAME" value="Requests_GET_ObtenerListaUsuarios_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Requests_Suite.Requests_GET_ObtenerListaUsuarios_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="Requests.Requests_Suite" />
+      <option name="METHOD_NAME" value="Requests_GET_ObtenerListaUsuarios_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Requests_Suite.Requests_Post_CrearUsuario_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="Requests.Requests_Suite" />
+      <option name="METHOD_NAME" value="Requests_Post_CrearUsuario_1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Requests_Suite.Requests_Post_CrearUsuario_1" />
+        <item itemvalue="TestNG.Requests_Suite.Requests_GET_ObtenerInfoUsuario" />
+        <item itemvalue="TestNG.Requests_Suite.Requests_GET_ObtenerListaUsuarios_1 (1)" />
+        <item itemvalue="TestNG.Requests_Suite.Requests_GET_ObtenerListaUsuarios_1" />
+        <item itemvalue="TestNG.Requests_Suite.Requests_GET_ObtenerListaUsuarios_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3d5a051-0415-4efd-ae7b-4b06e291ebfa" name="Default Changelist" comment="" />
+      <created>1602512104896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602512104896</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="94" key="GridCell.Tab.0.bottom" timestamp="1602634335911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="94" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
+    <state width="1877" height="94" key="GridCell.Tab.0.center" timestamp="1602634335911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="94" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
+    <state width="1877" height="94" key="GridCell.Tab.0.left" timestamp="1602634335911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="94" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
+    <state width="1877" height="94" key="GridCell.Tab.0.right" timestamp="1602634335911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="94" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
