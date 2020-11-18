@@ -23,11 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d5a051-0415-4efd-ae7b-4b06e291ebfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/DataProviders/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/Inicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/RequestsToZippopotamAPI_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/RequestsToZippopotamAPI_General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Requests_Suite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Requests/Requests_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Jsons/PostTest_CrearUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Jsons/PostTest_CrearUsuario.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Jsons/UpdateTest_UpdateUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Jsons/UpdateTest_UpdateUsuario.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Request_DELETE_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Request_DELETE_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Request_POST_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Request_POST_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Request_PUT_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Request_PUT_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Requests/Requests_GET_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Requests_GET_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationRestApi.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Requests/Request_DELETE_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Requests/Request_POST_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Requests/Request_PUT_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Requests/Requests_GET_Suite.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +50,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../AutomationRestApi\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,90 +71,34 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
-    <option name="y" value="492" />
-    <option name="width" value="1556" />
-    <option name="height" value="1035" />
-  </component>
   <component name="ProjectId" id="1iq87nP5ugg5zO2MGj0zVuvasz3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Serenity-Cucumber" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.Request_DELETE_Suite.test_DeleteMyApi">
+  <component name="RunManager" selected="TestNG.RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs.requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName">
     <configuration name="Request_DELETE_Suite.test_DeleteMyApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Requests.*" />
+          <option name="PATTERN" value="RestAssured.Youtube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Request_DELETE_Suite" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Youtube.Request_DELETE_Suite" />
       <option name="METHOD_NAME" value="test_DeleteMyApi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Request_POST_Suite.test_1_post (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Request_POST_Suite" />
-      <option name="METHOD_NAME" value="test_1_post" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Request_POST_Suite.test_1_post" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Request_POST_Suite" />
-      <option name="METHOD_NAME" value="test_1_post" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Request_POST_Suite.test_PutMyApi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Request_POST_Suite" />
-      <option name="METHOD_NAME" value="test_PutMyApi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,12 +110,12 @@
       <module name="AutomationRestApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Requests.*" />
+          <option name="PATTERN" value="RestAssured.Youtube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Request_PUT_Suite" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Youtube.Request_PUT_Suite" />
       <option name="METHOD_NAME" value="test_PutMyApi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -163,17 +124,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Requests_GET_Suite.GETRequests_ValidarResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestsToZippopotamAPI_DataProvider.requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestApi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Requests.*" />
+          <option name="PATTERN" value="RestAssured.Testautomationu.DataProviders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Requests" />
-      <option name="MAIN_CLASS_NAME" value="Requests.Requests_GET_Suite" />
-      <option name="METHOD_NAME" value="GETRequests_ValidarResponseBody" />
+      <option name="PACKAGE_NAME" value="RestAssured.Testautomationu" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Testautomationu.RequestsToZippopotamAPI_DataProvider" />
+      <option name="METHOD_NAME" value="requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestsToZippopotamAPI_General.Requests_USZipCode_CheckStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.Testautomationu.DataProviders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssured.Testautomationu" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Testautomationu.RequestsToZippopotamAPI_General" />
+      <option name="METHOD_NAME" value="Requests_USZipCode_CheckStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestsToZippopotamAPI_General.Requests_USZipCode_CheckStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.Testautomationu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssured.Testautomationu" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Testautomationu.RequestsToZippopotamAPI_General" />
+      <option name="METHOD_NAME" value="Requests_USZipCode_CheckStatusCode" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="0" />
       <properties />
@@ -182,13 +179,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs.requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.Testautomationu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssured.Testautomationu" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.Testautomationu.RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs" />
+      <option name="METHOD_NAME" value="requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs.requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" />
+        <item itemvalue="TestNG.RequestsToZippopotamAPI_DataProvider.requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName" />
+        <item itemvalue="TestNG.RequestsToZippopotamAPI_General.Requests_USZipCode_CheckStatusCode" />
+        <item itemvalue="TestNG.RequestsToZippopotamAPI_General.Requests_USZipCode_CheckStatusCode" />
         <item itemvalue="TestNG.Request_DELETE_Suite.test_DeleteMyApi" />
-        <item itemvalue="TestNG.Request_PUT_Suite.test_PutMyApi" />
-        <item itemvalue="TestNG.Request_POST_Suite.test_PutMyApi" />
-        <item itemvalue="TestNG.Request_POST_Suite.test_1_post" />
-        <item itemvalue="TestNG.Request_POST_Suite.test_1_post (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,38 +220,6 @@
       <updated>1602512104896</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Request_POST_Suite_test_1_post - 2020.10.20 at 19h 09m 08s.xml">
-      <configuration name="Request_POST_Suite.test_1_post" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_POST_Suite_test_1_post - 2020.10.20 at 19h 09m 50s.xml">
-      <configuration name="Request_POST_Suite.test_1_post" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_POST_Suite_test_1_post - 2020.10.20 at 19h 56m 45s.xml">
-      <configuration name="Request_POST_Suite.test_1_post" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_PUT_Suite_test_PutMyApi - 2020.10.20 at 20h 16m 39s.xml">
-      <configuration name="Request_PUT_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_POST_Suite_test_PutMyApi - 2020.10.20 at 20h 17m 30s.xml">
-      <configuration name="Request_POST_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_POST_Suite_test_PutMyApi - 2020.10.20 at 20h 18m 01s.xml">
-      <configuration name="Request_POST_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_PUT_Suite_test_PutMyApi - 2020.10.20 at 20h 20m 40s.xml">
-      <configuration name="Request_PUT_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_PUT_Suite_test_PutMyApi - 2020.10.20 at 20h 21m 18s.xml">
-      <configuration name="Request_PUT_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_PUT_Suite_test_PutMyApi - 2020.10.20 at 20h 22m 50s.xml">
-      <configuration name="Request_PUT_Suite.test_PutMyApi" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Request_DELETE_Suite_test_DeleteMyApi - 2020.10.20 at 20h 28m 31s.xml">
-      <configuration name="Request_DELETE_Suite.test_DeleteMyApi" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -265,48 +248,41 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="94" key="GridCell.Tab.0.bottom" timestamp="1602634335911">
+    <state x="696" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605725313620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="94" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
-    <state width="1877" height="94" key="GridCell.Tab.0.center" timestamp="1602634335911">
+    <state x="696" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605725313620" />
+    <state x="782" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605701294013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="94" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
-    <state width="1877" height="94" key="GridCell.Tab.0.left" timestamp="1602634335911">
+    <state x="782" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605701294013" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1605704727456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="94" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
-    <state width="1877" height="94" key="GridCell.Tab.0.right" timestamp="1602634335911">
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605704727456" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1605704727456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="94" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602634335911" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605704727456" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1605704727456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605704727456" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1605704727456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605704727456" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1605614499303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605614499303" />
+    <state x="585" y="222" key="RollbackChangesDialog" timestamp="1605095936696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605095936696" />
+    <state x="467" y="170" width="998" height="708" key="SettingsEditor" timestamp="1605725315300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="467" y="170" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605725315300" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package Requests;
+package RestAssured.Youtube;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 import io.restassured.http.ContentType;

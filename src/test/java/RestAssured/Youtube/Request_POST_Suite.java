@@ -1,18 +1,9 @@
-package Requests;
+package RestAssured.Youtube;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-import com.google.gson.JsonObject;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.RestAssured.*;
-import org.hamcrest.core.Is;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class Request_POST_Suite {
@@ -69,7 +60,6 @@ public class Request_POST_Suite {
                 when()   //Cuando hacemos un Post en la URL
                 .post("/users"). //Entonces espero codigo 201 como respuesta valida, else fail.
                 then()
-                .statusCode(201)
                 .log().all();  //Impr   imo el Response Body.
 
 

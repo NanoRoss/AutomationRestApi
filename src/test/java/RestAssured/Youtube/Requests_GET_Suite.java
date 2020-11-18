@@ -1,12 +1,10 @@
-package Requests;
+package RestAssured.Youtube;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.core.Is;
 import org.testng.annotations.Test;
 
 import java.io.File;
