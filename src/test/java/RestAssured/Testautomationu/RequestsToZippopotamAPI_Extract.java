@@ -6,16 +6,14 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-
-
-
-public class RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseSpecs extends DataProviders {
+public class RequestsToZippopotamAPI_Extract  {
 
     private static RequestSpecification requestSpec;
     private static ResponseSpecification responseSpec;
@@ -34,26 +32,21 @@ public class RequestsToZippopotamAPI_RequestSpecification_requestSpecs_responseS
     }
 
 
+    @Test()
+    public void requestZipCodesFromCollection_Extract_SpecifiedPlaceName() {
 
-    @Test(dataProvider = "data-provider-ZipCodes")
-    public void requestZipCodesFromCollection_checkPlaceNameInResponseBody_expectSpecifiedPlaceName(String countryCode, String zipCode, String expectedPlaceName) {
+        String placeName =
 
         given().
                 spec(requestSpec). // Seteo precondiciones comunes.
-                pathParam("countryCode", countryCode).
-                pathParam("zipCode", zipCode).
         when().
-                get("{countryCode}/{zipCode}").
+                get("us/90210").
         then().
+                extract().
+                path("places[0].'place name'");
 
-                spec(responseSpec). // Seteo postcondiciones comunes.
+        Assert.assertEquals(placeName,"Beverly Hills");
 
-                assertThat().
-                body("places[0].'place name'", equalTo(expectedPlaceName));
-                
     }
-
-
-
-
 }
+
