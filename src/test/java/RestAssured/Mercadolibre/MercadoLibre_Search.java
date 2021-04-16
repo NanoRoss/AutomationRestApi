@@ -20,11 +20,11 @@ public class MercadoLibre_Search {
     @BeforeClass     //Preparo Pre-Condiciones Comunes a todos los tests.
     public static void Request_Response_Specification() {
 
-        requestSpec = new RequestSpecBuilder(). //PreCondiciones Comunes
+        requestSpec = new RequestSpecBuilder(). //PreCondiciones Comunes a todos los tests.
                 setBaseUri("https://api.mercadolibre.com/sites/MLA").
                 build();
 
-        responseSpec = new ResponseSpecBuilder().  //PostCondiciones Comunes
+        responseSpec = new ResponseSpecBuilder().  //PostCondiciones Comunes a todos los tests.
                 expectStatusCode(200).
                 expectContentType(ContentType.JSON).
                 build();

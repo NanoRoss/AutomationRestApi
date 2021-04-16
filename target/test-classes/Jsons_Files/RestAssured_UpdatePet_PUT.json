@@ -1,0 +1,18 @@
+{
+  "id": 9222999990497621487,
+  "category": {
+    "id": 9222999990497621487,
+    "name": "NAME POST UPDATED"
+  },
+  "name": "NAME POST UPDATED 2",
+  "photoUrls": [
+    "URL PHOTO"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

@@ -39,9 +39,11 @@ public class RequestsToZippopotamAPI_Extract  {
 
         given().
                 spec(requestSpec). // Seteo precondiciones comunes.
+                log().all().   //Imprimo el Request Body.
         when().
                 get("us/90210").
         then().
+                log().all(). // Imprimo el reponse body
                 extract().
                 path("places[0].'place name'");
 

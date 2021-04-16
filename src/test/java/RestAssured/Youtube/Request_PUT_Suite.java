@@ -29,16 +29,11 @@ public class Request_PUT_Suite {
                 accept(ContentType.JSON).       //Especifica el tipo de data que nos retornan en el bodyResponse.
                 body(requestBody.toJSONString()).
                 log().all().   //Imprimo el Request Body.
-
-
                 when()   //Cuando hacemos un Post en la URL
                 .put("/users/2"). //Entonces espero codigo 201 como respuesta valida, else fail.
                 then()
                 .statusCode(200)
                 .log().all();  //Impr   imo el Response Body.
-
-
-
     }
 
 

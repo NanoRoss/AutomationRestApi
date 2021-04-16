@@ -40,15 +40,11 @@ public class Deserialization_Empleado {
     public  void Deserialization_EmpleadoRequest(){
 
         Deserialization_Empleado_Class deserialization_empleado_class =
-
                 given().
                 when().
                         get("http://localhost:3000/Empleado").
                         as(Deserialization_Empleado_Class.class);  //De-serialization : Convierto rta Json a Java Object para laburarlo mas comodo.
-
         Assert.assertEquals("QA", deserialization_empleado_class.getPuesto());   //Genero el Assert directamente al Objeto generado del json recibido.
-
-
 
     }
 
