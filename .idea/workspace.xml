@@ -23,23 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d5a051-0415-4efd-ae7b-4b06e291ebfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Exam/Exam_RestAssured.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Jsons_Files/RestAssured_AddPet_POST.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Jsons_Files/RestAssured_UpdatePet_PUT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Mercadolibre/MercadoLibre_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Mercadolibre/MercadoLibre_Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/Pojo_Clasess/Deserialization_Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/Pojo_Clasess/Deserialization_Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/RequestsToZippopotamAPI_Extract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Testautomationu/RequestsToZippopotamAPI_Extract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Jsons/PostTest_CrearUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Jsons_Files/PostTest_CrearUsuario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Jsons/UpdateTest_UpdateUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Jsons_Files/UpdateTest_UpdateUsuario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Request_PUT_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Youtube/Request_PUT_Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Helpers/helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helpers/helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestAssured/Testautomationu/Pojo_Clasess/Deserialization_Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestAssured/Testautomationu/Pojo_Clasess/Deserialization_Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestAssured/Testautomationu/RequestsToZippopotamAPI_Extract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestAssured/Testautomationu/RequestsToZippopotamAPI_Extract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestAssured/Youtube/Request_PUT_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestAssured/Youtube/Request_PUT_Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/Exam/Exam_RestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/Exam/Exam_RestAssured.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

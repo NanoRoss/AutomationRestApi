@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.equalTo;
 import Helpers.helpers;
 
 
-//https://braulio-batista.medium.com/json-schema-validation-with-rest-assured-f5adb4dc1bda
+////https://braulio-batista.medium.com/json-schema-validation-with-rest-assured-f5adb4dc1bda
 
 public class Exam_RestAssured {
 
